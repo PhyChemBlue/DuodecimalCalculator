@@ -6,7 +6,7 @@ Created on Thu Mar 21 23:57:46 2024
 """
 
 import sys
-from Base12Qt import Ui_MainWindow
+from Base12UI import Ui_MainWindow
 from PyQt5.QtWidgets import QWidget, QApplication, QMainWindow
 from fractions import Fraction as frc
 import math
