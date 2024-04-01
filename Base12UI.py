@@ -379,16 +379,11 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
-        # self.actionCalculator = QtWidgets.QAction(MainWindow)
-        # self.actionCalculator.setObjectName("actionCalculator")
-        # self.actionConverter = QtWidgets.QAction(MainWindow)
-        # self.actionConverter.setObjectName("actionConverter")
         self.menubar.addAction(self.menuCalculator.menuAction())
         self.menubar.addAction(self.menuConverter.menuAction())
 
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(1)
-        # self.pushButton_BC0.clicked.connect(MainWindow.setFocus) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -493,15 +488,13 @@ class Ui_MainWindow(object):
         self.radioButton_Doz.setText(_translate("MainWindow", "Doz to Dec"))
         self.menuCalculator.setTitle(_translate("MainWindow", "Calculator"))
         self.menuConverter.setTitle(_translate("MainWindow", "Converter"))
-        # self.actionCalculator.setText(_translate("MainWindow", "Calculator"))
-        # self.actionConverter.setText(_translate("MainWindow", "Converter"))
 
 
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
+# if __name__ == "__main__":
+#     import sys
+#     app = QtWidgets.QApplication(sys.argv)
+#     MainWindow = QtWidgets.QMainWindow()
+#     ui = Ui_MainWindow()
+#     ui.setupUi(MainWindow)
+#     MainWindow.show()
+#     sys.exit(app.exec_())
