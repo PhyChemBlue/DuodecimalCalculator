@@ -584,7 +584,7 @@ class Calculator(QMainWindow, Ui_MainWindow):
     
     def SCDec(self):
         self.SCAC()
-        self.lineEdit_SC2.setText("Ans=" + str(self.SAns) + ' ')
+        self.lineEdit_SC2.setText("Ans=" + str(float(self.SAns)) + ' ')
 
     #Converter
     def CDDozO(self):
