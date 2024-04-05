@@ -1,5 +1,5 @@
 # DuodecimalCalculator
-Dozenal (duodecimal) calculator with excellent GUI. Including basic mode, scientific mode, and base converter mode.
+Dozenal (duodecimal, base 12) calculator with excellent GUI. Including basic mode, scientific mode, and base converter mode.
 
 ## Numeral System
 
