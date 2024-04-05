@@ -488,13 +488,3 @@ class Ui_MainWindow(object):
         self.radioButton_Doz.setText(_translate("MainWindow", "Doz to Dec"))
         self.menuCalculator.setTitle(_translate("MainWindow", "Calculator"))
         self.menuConverter.setTitle(_translate("MainWindow", "Converter"))
-
-
-# if __name__ == "__main__":
-#     import sys
-#     app = QtWidgets.QApplication(sys.argv)
-#     MainWindow = QtWidgets.QMainWindow()
-#     ui = Ui_MainWindow()
-#     ui.setupUi(MainWindow)
-#     MainWindow.show()
-#     sys.exit(app.exec_())
