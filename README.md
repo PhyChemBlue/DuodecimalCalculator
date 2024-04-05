@@ -4,6 +4,7 @@ Dozenal (duodecimal) calculator with excellent GUI. Including basic mode, scient
 ## Numeral System
 
 | Dozenal | O | A | B | C | D | E | F | G | H | I | K | L | AO |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 | Decimal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 
 ## Basic Mode:
@@ -33,6 +34,7 @@ As for memorizing multiplication tables, the only convenience of using 012...9AB
 Dozenal multiplication table:
 
 ||A|B|C|D|E|F|G|H|I|K|L|AO|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |A|A|B|C|D|E|F|G|H|I|K|L|AO|
 |B|B|D|F|H|K|AO|AB|AD|AF|AH|AK|BO|
 |C|C|F|I|AO|AC|AF|AI|BO|BC|BF|BI|CO|
